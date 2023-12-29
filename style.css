@@ -232,6 +232,17 @@ nav ul li a {
     text-align: center;
 }
 
+.product-display-heading p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    color: rgba(75, 75, 75, 1);
+    margin-top: 10px;
+}
+
+
 .products {
     display: flex;
     justify-content: space-between;
@@ -270,3 +281,107 @@ nav ul li a {
 }
 
 /* products-display */
+
+/* product card */
+.product-cards {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin-top: 50px;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 0 20px;
+}
+
+.product-card-heading {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    text-align: center;
+    display: grid;
+    margin-top: 30px;
+}
+
+.product-card-heading h2 {
+    font-family: Readex Pro;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.product-card-heading p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    color: rgba(75, 75, 75, 1);
+    margin-top: 10px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 30px; */
+    background-color: #ffffff;
+}
+
+.card {
+    margin: 0 20px;
+    display: flex;
+    background-color: rgba(248, 249, 250, 1);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 40px;
+}
+
+.card-heading {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    text-align: center;
+
+}
+
+.card-heading p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    color: rgba(75, 75, 75, 1);
+    margin-top: 10px;
+}
+
+.card-heading h2 {
+    font-family: 'Readex Pro', 'serif';
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: center;
+}
+
+.card-heading button {
+    background-color: transparent;
+    border: 1px solid #000000;
+    padding: 14px 53px;
+    font-size: 18px;
+    border-radius: 30px;
+    font-family: 'inter', sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 20px;
+}
+
+/* product card */
