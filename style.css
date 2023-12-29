@@ -104,7 +104,6 @@ nav ul li a {
     Width: 85%;
     Height: 1018px;
     background-color: #ffffff;
-    position: relative;
     padding: 28px;
 }
 
@@ -114,9 +113,17 @@ nav ul li a {
     flex-direction: column;
     align-items: center;
     padding: 20px 0;
-    display: grid;
 }
 
+.product-section p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    color: rgba(75, 75, 75, 1);
+    margin-top: 10px;
+}
 
 .product-heading h2 {
     font-family: Readex Pro;
@@ -385,3 +392,109 @@ nav ul li a {
 }
 
 /* product card */
+
+
+button:hover {
+    background-color: #000000;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+/* footer */
+.footer-section {
+    width: 100%;
+    background-color: rgba(248, 249, 250, 1);
+}
+
+.footer {
+    width: 85%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    padding: 30px 25px;
+}
+
+.footer-item {
+    width: 25%;
+    padding: 0 20px;
+}
+
+.footer-item li {
+    list-style: none;
+    font-family: 'Inter', 'serif';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    margin-top: 20px;
+    color: rgba(75, 75, 75, 1);
+    margin-top: 10px;
+}
+
+.footer-item h3 {
+    font-family: 'Readex Pro', 'serif';
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.footer-item:nth-child(1) {
+    padding: 8px 0;
+    width: 30%;
+}
+
+/* footer */
+
+
+/* ideas-section */
+.ideas-section {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin-top: 50px;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 0 20px;
+}
+
+.ideas-heading {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    text-align: center;
+    display: grid;
+    margin-top: 30px;
+}
+
+.ideas {
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 0 20px;
+    border-radius: 30px;
+}
+
+.ideas-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 20px;
+
+}
+
+.ideas p {
+    font-family: 'Inter', 'serif';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+    color: rgba(75, 75, 75, 1);
+}
+
+/* ideas-section */
